@@ -1,4 +1,4 @@
-import P from '../palidrome/isPalindrome';
+import P from '../palindrome/isPalindrome';
 import { expect } from 'chai';
 
 describe('Bubble sort', () => {
