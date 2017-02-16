@@ -7,6 +7,7 @@ export default function kebabCase(str) {
         throw new Error('Cannot accept empty string');
     }
 
+    str = str.replace(/' '/g, '');
     const pattern = new RegExp(/([a-z][A-Z])|([a-z][_][a-z])/, 'g');
 
     return str.replace(pattern, function (match) {
