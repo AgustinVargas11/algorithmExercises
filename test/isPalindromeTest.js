@@ -1,7 +1,7 @@
 import P from '../palindrome/isPalindrome';
 import { expect } from 'chai';
 
-describe('Bubble sort', () => {
+describe('isPalindrome', () => {
 
     it('should return true', () => {
         expect(P('mo-m')).to.be.true;

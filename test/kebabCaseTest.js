@@ -1,7 +1,7 @@
 import kc from '../kebabCase/kebabCase';
 import { expect } from 'chai';
 
-describe('Bubble sort', () => {
+describe('KebabCase', () => {
 
     it('should throw an error if a string is not passed in', () => {
         expect(() => {
